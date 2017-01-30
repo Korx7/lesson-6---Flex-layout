@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+}
+section {
+    background-color:yellow;
+    width: 200px;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.header {
+    background-color: #188DE7;
+    height: 100px;
+}
+.main {
+    display: flex;
+    flex-grow: 1;
+}
+.content {
+    background-color: #9DDDEC;
+    flex-grow: 1;
+}
+.advertising {
+    background-color: #C56352;
+    width: 200px;
+    flex-shrink: 0;
+}
+.footer {
+    background-color: #6BBA62;
+    height: 50px;
+}
